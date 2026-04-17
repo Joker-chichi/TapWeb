@@ -75,7 +75,7 @@ TapWeb 试图解决这个问题：
 
 * 👉 [GitHub 下载（推荐）](https://github.com/Joker-chichi/TapWeb/releases)
 * 👉 [下载最新 APK](https://github.com/Joker-chichi/TapWeb/releases/download/v0.1.0/TapWeb1.0.apk)
-* 👉 国内用户可使用百度云下载：(https://pan.baidu.com/s/1yahuIbMwHvzObaKHknRVBQ?pwd=tpwb)
+* 👉 [国内用户可使用百度云下载](https://pan.baidu.com/s/1yahuIbMwHvzObaKHknRVBQ?pwd=tpwb)
 
 ---
 
