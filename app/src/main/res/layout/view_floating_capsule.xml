@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/capsule_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_floating_capsule"
+    android:elevation="4dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="4dp"
+    android:paddingTop="4dp"
+    android:paddingEnd="4dp"
+    android:paddingBottom="4dp">
+
+    <LinearLayout
+        android:id="@+id/expanded_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/btn_browser"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/open_in_browser"
+            android:padding="10dp"
+            android:src="@drawable/ic_open_browser"
+            app:tint="@color/on_surface" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:background="#1A000000" />
+
+        <ImageView
+            android:id="@+id/btn_share"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/share"
+            android:padding="10dp"
+            android:src="@drawable/ic_share"
+            app:tint="@color/on_surface" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:background="#1A000000" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/menu_handle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/more_options"
+        android:padding="8dp"
+        android:src="@drawable/ic_capsule_menu"
+        app:tint="@color/on_surface" />
+
+</LinearLayout>

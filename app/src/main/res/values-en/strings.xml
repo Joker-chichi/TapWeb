@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tapweb</string>
+
+    <!-- Home -->
+    <string name="empty_state">Tap + to add a website</string>
+    <string name="home_hint_msg">Some sites may require the system browser for login or payment</string>
+    <string name="add_site">Add Website</string>
+    <string name="edit_site">Edit Website</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="view_url">View URL</string>
+
+    <!-- Add Site -->
+    <string name="hint_url">URL (e.g. github.com)</string>
+    <string name="hint_title">Name (auto-detect if blank)</string>
+    <string name="open_mode_label">Open Mode</string>
+    <string name="mode_webview">In-App</string>
+    <string name="mode_browser">Browser</string>
+    <string name="create_shortcut">Create home screen shortcut</string>
+    <string name="save">Save</string>
+    <string name="saving">Saving…</string>
+    <string name="saved">Saved</string>
+    <string name="error_invalid_url">Please enter a valid URL</string>
+
+    <!-- WebView -->
+    <string name="refresh">Refresh</string>
+    <string name="open_in_browser">Open in browser</string>
+    <string name="webview_hint_msg">Some sites may require the system browser for login or payment</string>
+    <string name="webview_hint_action">Got it</string>
+    <string name="share">Share</string>
+    <string name="no_app_to_handle">No app can handle this link</string>
+    <string name="downloading">Downloading…</string>
+    <string name="shortcut_created">Shortcut added to home screen</string>
+    <string name="shortcut_not_supported">Home screen shortcuts not supported</string>
+    <string name="shortcut_hint_title">About Home Screen Shortcuts</string>
+    <string name="shortcut_hint_message">The shortcut has been added to the app icon (long-press to see).\n\nIf it didn\'t appear on the home screen automatically, please grant the \"Create shortcut\" permission in Settings, then try again.</string>
+    <string name="shortcut_hint_open_settings">Open Settings</string>
+    <string name="shortcut_hint_later">Later</string>
+    <string name="shortcut_hint_dont_show">Don\'t show again</string>
+
+    <!-- Errors -->
+    <string name="error_no_network">No Network</string>
+    <string name="error_no_network_msg">Please check your connection and retry</string>
+    <string name="error_load_failed">Load Failed</string>
+    <string name="error_load_failed_msg">The page could not be loaded. Please try again later</string>
+    <string name="error_timeout">Timeout</string>
+    <string name="error_timeout_msg">Page took too long to load. Check your network</string>
+    <string name="retry">Retry</string>
+    <string name="more_options">More options</string>
+    <string name="icon_label">Icon</string>
+    <string name="icon_auto">Default</string>
+    <string name="icon_custom">Custom</string>
+    <string name="icon_pick_image">Pick Image</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_system">System</string>
+    <string name="settings_theme">Appearance</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_about">About</string>
+    <string name="settings_restart_hint">Language change will take effect after restarting the app</string>
+
+    <!-- About -->
+    <string name="about_app_name">TapWeb</string>
+    <string name="about_slogan">Open web pages like opening apps</string>
+    <string name="about_desc">Add web pages to your home screen and open them with one tap.\nNo need to install apps — make web pages truly usable shortcuts.</string>
+    <string name="about_features_title">Features</string>
+    <string name="about_features">• Add websites to home screen\n• Immersive browsing experience\n• Floating action menu\n• Custom icons</string>
+    <string name="about_tips">Tip: Some sites may require the system browser for login or payment\nSome devices may have compatibility issues</string>
+    <string name="about_contact">Feedback:\nWeChat: w3413935408 (mention TapWeb)</string>
+    <string name="about_github">github.com/Joker-chichi/TapWeb</string>
+    <string name="about_donate">If you find this project helpful, buy me a coffee ☕</string>
+    <string name="about_close">Close</string>
+</resources>

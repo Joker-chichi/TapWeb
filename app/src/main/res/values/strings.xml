@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tapweb</string>
+
+    <!-- Home -->
+    <string name="empty_state">点击右下角 + 添加网站</string>
+    <string name="home_hint_msg">部分网站的登录或支付功能建议使用系统浏览器完成</string>
+    <string name="add_site">添加网站</string>
+    <string name="edit_site">编辑网站</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="view_url">查看网址</string>
+
+    <!-- Add Site -->
+    <string name="hint_url">网址 (如 github.com)</string>
+    <string name="hint_title">名称 (留空自动获取)</string>
+    <string name="open_mode_label">打开方式</string>
+    <string name="mode_webview">应用内打开</string>
+    <string name="mode_browser">浏览器打开</string>
+    <string name="create_shortcut">创建桌面快捷方式</string>
+    <string name="save">保存</string>
+    <string name="saving">保存中…</string>
+    <string name="saved">已保存</string>
+    <string name="error_invalid_url">请输入有效的网址</string>
+
+    <!-- WebView -->
+    <string name="refresh">刷新</string>
+    <string name="open_in_browser">用浏览器打开</string>
+    <string name="webview_hint_msg">部分网站登录或支付可能需要跳转到系统浏览器完成</string>
+    <string name="webview_hint_action">知道了</string>
+    <string name="share">分享</string>
+    <string name="no_app_to_handle">没有应用可以打开此链接</string>
+    <string name="downloading">正在下载…</string>
+    <string name="shortcut_created">快捷方式已添加到桌面</string>
+    <string name="shortcut_not_supported">此桌面不支持快捷方式</string>
+    <string name="shortcut_hint_title">关于桌面快捷方式</string>
+    <string name="shortcut_hint_message">快捷方式已添加到应用图标（长按图标可见）。\n\n如果桌面没有自动出现快捷方式，请在系统设置中授予「创建桌面快捷方式」权限，然后重新保存。</string>
+    <string name="shortcut_hint_open_settings">去设置</string>
+    <string name="shortcut_hint_later">以后再说</string>
+    <string name="shortcut_hint_dont_show">我已知晓，不再弹出</string>
+
+    <!-- Errors -->
+    <string name="error_no_network">网络不可用</string>
+    <string name="error_no_network_msg">请检查网络连接后重试</string>
+    <string name="error_load_failed">加载失败</string>
+    <string name="error_load_failed_msg">页面无法加载，请稍后重试</string>
+    <string name="error_timeout">加载超时</string>
+    <string name="error_timeout_msg">页面加载时间过长，请检查网络</string>
+    <string name="retry">重试</string>
+    <string name="more_options">更多选项</string>
+    <string name="icon_label">图标</string>
+    <string name="icon_auto">默认图标</string>
+    <string name="icon_custom">自定义图标</string>
+    <string name="icon_pick_image">选择图片</string>
+
+    <!-- Settings -->
+    <string name="settings">设置</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_language_system">跟随系统</string>
+    <string name="settings_theme">外观</string>
+    <string name="settings_theme_light">浅色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_theme_system">跟随系统</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_restart_hint">语言更改将在重启应用后生效</string>
+
+    <!-- About -->
+    <string name="about_app_name">TapWeb（轻匣）</string>
+    <string name="about_slogan">像打开 App 一样打开网页</string>
+    <string name="about_desc">将网页添加到桌面，一键打开。\n无需安装 App，让网页真正成为可用入口。</string>
+    <string name="about_features_title">功能</string>
+    <string name="about_features">• 网页添加到桌面\n• 沉浸式浏览体验\n• 悬浮操作入口\n• 自定义图标</string>
+    <string name="about_tips">提示：部分网站登录和支付建议使用浏览器打开\n部分机型在功能上可能存在兼容性问题</string>
+    <string name="about_contact">反馈与交流：\n微信：w3413935408（备注 TapWeb）</string>
+    <string name="about_github">github.com/Joker-chichi/TapWeb</string>
+    <string name="about_donate">如果你觉得这个项目对你有帮助，欢迎请我喝杯咖啡 ☕</string>
+    <string name="about_close">关闭</string>
+</resources>
